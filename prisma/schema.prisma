@@ -87,6 +87,7 @@ model Account {
   linkedCards    Card[]
   payables       Payable[]
   receivables    Receivable[]
+  recurringEntries RecurringEntry[]
 
   @@index([userId])
 }
